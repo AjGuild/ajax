@@ -1,0 +1,116 @@
+#body{
+    background-color: rgb(5, 51, 5);
+}
+
+#tag{
+    
+    color: white;
+    font-size: 50px;
+    margin-left: -150px;
+}
+#tagB{
+    color: white;
+    font-size: 50px;
+    margin-left: 800px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    /* width: 500px; */
+    
+   
+}
+.navbar li{
+    float: left;
+    margin: 40px;
+    list-style: none;
+}
+#img{
+    border-radius: 50%;
+    width: 50%;
+}
+#imgB{
+    height: 500px;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0.1px black;
+    transition: transform 1s;
+}
+#imgB:hover{
+    transform: scale(0.9);
+    box-shadow: 40px 40px 40px 1px cyan;
+}
+#para1{
+    color: white;
+    /* border: 1px solid ; */
+    padding: 80px;
+    padding-top: 150px;
+    margin-left: 0%;
+    height: 600px;
+    width: 50%;
+    background-color: rgb(68, 218, 68);
+}
+#section1 li{
+    float: left;
+    list-style: none;
+
+}
+#section1 {
+    height: 700px;
+    /* box-shadow: 10px 15px 5px black; */
+border: 1px solid ;
+background-color:  rgb(68, 218, 68);
+/* color: aqua; */
+    /* background-color: greenyellow; */
+}
+
+#section2{
+    height: 700px;
+    border: 1px solid;
+    /* background-color:rgb(68, 218, 68) ; */
+}
+.imgc{
+ border-radius: 10px;
+    width: 50%;
+    box-shadow: 10px 10px 10px 0.2px black;
+    transition: transform 1s;
+}
+.imgc:hover{
+    transform: scale(0.9);
+    box-shadow: 40px 40px 40px 1px cyan;
+}
+#para2{
+    color: white;
+    
+    /* border: 1px solid; */
+    padding: 80px;
+    padding-top: 150px;
+    height: 600px;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -30%;
+}
+#ill{
+    color: white;
+    font-size: 100px;
+    border: 1px solid  rgb(68, 218, 68); 
+    border-radius: 80px;
+    background-color:  rgb(68, 218, 68);
+    /* margin-right: 50px; */
+}
+
+.zoom{
+    height: 100px;
+    width: 100px;
+    margin-left: -50px;
+    border-radius: 100px;
+    /* margin-right: -50px; */
+    transition: transform 1s;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
